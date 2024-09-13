@@ -11,6 +11,7 @@ const AppRouter = () => {
             <Route path="/basket" element={<Basket/>}/>
             <Route path="/favorite" element={<Favorite/>}/>
             <Route path="/" element={<Shop/>}/>
+            <Route path="/qpick" element={<Shop/>}/>
             <Route path="*" element={<main>NotFound</main>}/>
         </Routes>   
 
