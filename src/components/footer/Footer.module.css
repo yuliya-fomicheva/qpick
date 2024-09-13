@@ -1,0 +1,138 @@
+.footer {
+    min-height: 149px;
+    max-width: 1110px;
+    margin: 0 17px;
+
+    
+   
+    border-radius: 30px 30px 0px 0px;
+    background: #FFF;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.10);
+
+}
+
+.footer__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px 30px;
+
+}
+
+.footer__logoWrapper {
+    margin-right: 230px;
+}
+
+
+.logo {
+    fill:#101010;
+
+}
+
+
+.logo:hover,
+.logo:focus {
+    fill:#838383;
+}
+
+.footer__nav {
+    min-width: 142px;
+    margin-right: 174px;
+}
+
+.nav__list {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+  
+    
+}
+
+.nav__item {
+    padding-bottom: 10px 
+}
+
+.nav__item:first-child {
+    padding-top: 0;
+}
+
+.nav__item a {
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.nav__item a:hover,
+.nav__item a:focus {
+    color: #FFA542;
+}
+
+.options {
+    max-width: 152px;
+    margin-right: 100px;
+    padding-bottom: 10px;
+}
+
+.options__list {
+    display: flex;
+    flex-direction: column;
+
+    flex-wrap: wrap;
+    min-width: 142px;
+    padding: 5px 0;
+    
+}
+.options__item {
+    margin-bottom: 35px;
+}
+
+.options__item a {
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.options__item a:hover,
+.options__item a:focus {
+    color: #FFA542;
+}
+.language {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+}
+.language__label {
+    color: #101010;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 7.5px;
+}
+input[type="radio"]:checked + .language__label{
+    color: #FFA542
+}
+
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.contacts__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    min-width: 127px;
+    align-items: center;
+}
+
+.contacts__socialButton {
+    fill: #101010;
+}
+
+.contacts__socialButton:hover,
+.contacts__socialButton:focus{
+    fill: #FFA542;
+}

@@ -1,0 +1,131 @@
+.card {
+    width: 633px;
+    height: 218px;
+    border-radius: 30px;
+    background: #FFF;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.10);
+    padding: 15px 0 0 20px;
+    
+    box-sizing: border-box;
+    margin-bottom: 30px;
+    display: flex;
+ 
+}
+
+
+
+.card__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 12px; 
+}
+
+.card__wrapper_center {
+    justify-content: center;
+    flex-grow: 2;
+    align-items: start;
+    padding: 0 20px;
+}
+
+.card__wrapper_end {
+    justify-content: space-between;
+
+    align-items: end;
+    margin-right: 28px;
+}
+
+.card__img {
+
+    max-width:146px;
+    height:136px;
+    margin: 0 auto;
+    padding-bottom: 22px; 
+}
+
+.card__img img {
+    width: 100%;
+    height: auto;
+}
+
+.card__title {
+    color: #1C1C27;
+
+    margin-bottom: 12px;
+
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.card__price {
+    color: #AAA;
+
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.card__price_generalPrice {
+    color: #1C1C27;
+}
+
+
+
+.card__buttonGroup {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card__buttonCount {
+    border: none;
+    border-radius: 50%;
+
+    width: 30px;
+    height: 30px;
+    
+}
+
+.button__icon {
+    fill:#FFCE7F;
+}
+
+.button__icon:hover {
+    fill: #FFA542;
+}
+
+.card__count {
+    color: #000;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+
+.card__button {
+    border: none;
+    background-color: transparent;
+    
+    color: #000;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+    cursor: pointer;
+}
+
+
+.card__buttonDelete {
+    background-color: transparent;
+    border: none;
+}
+
+.buttonDelete__icon:hover,
+.buttonDelete__icon:focus{
+    opacity: 0.6;
+}
